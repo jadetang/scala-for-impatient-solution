@@ -4,7 +4,7 @@ import java.io.PrintWriter
 
 import scala.io.Source
 
-object main9{
+object main2{
   def main(args: Array[String]) {
     val source = Source.fromFile("resource\\2.txt","UTF-8")
     val reversedline = source.getLines.toArray.reverse
